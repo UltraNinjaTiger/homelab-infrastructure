@@ -18,4 +18,4 @@ A self-hosted, home server built on Ubuntu Server host. Designed to do whatever 
 All credentials, API tokens, and local IP addresses are isolated using environment variables ('.env'). Refer to '.env.example' for required configuration variables before deployment
 
 ## Misc
-Had to turn off tailscale serve IP's as rebooting the homelab would cause port conflictions. Tailscale IP loaded first before the docker stacks for the applications.
+Had to turn off tailscale serve IP's as rebooting the homelab would cause port conflictions. Tailscale IP loaded first before the docker stacks for the applications causing the website page to be unable to load.
